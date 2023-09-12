@@ -7,9 +7,9 @@ public class configWAnnot {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("appContext.xml");
 
-        Cat cat = context.getBean("cat",Cat.class);
+      overall over = context.getBean("overall",overall.class);
 
-        cat.say();
+      over.say();
 
         context.close();
     }
