@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 
 @Component ("cat")
 public class Cat implements Pet{
-    private String name;
 
     public Cat(){
         System.out.println("Cat bean is created;")
